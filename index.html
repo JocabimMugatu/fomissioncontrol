@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mission Control</title>
+<style>
+:root{--bg:#0b0e14;--card:#131824;--line:#232a3a;--txt:#e6eaf2;--dim:#8b93a7;--green:#3fb96b;--yellow:#e0b34c;--red:#e06c75;--accent:#5b8cff}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--txt);font:14px/1.5 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;padding:28px 20px 60px}
+.wrap{max-width:1200px;margin:0 auto}
+h1{font-size:22px;font-weight:600;letter-spacing:.2px}
+.sub{color:var(--dim);font-size:13px;margin:4px 0 24px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:24px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.tile .n{font-size:26px;font-weight:700}
+.tile .l{color:var(--dim);font-size:12px;margin-top:2px}
+.tile .d{font-size:11px;color:var(--dim);margin-top:6px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.chip{background:var(--card);border:1px solid var(--line);color:var(--dim);border-radius:999px;padding:5px 13px;font-size:12px;cursor:pointer;user-select:none}
+.chip.on{color:var(--txt);border-color:var(--accent);background:#182338}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+th{font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--dim);text-align:left;padding:10px 12px;border-bottom:1px solid var(--line)}
+td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top;font-size:13px}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:#161d2c}
+.sname{font-weight:600}
+.proj{color:var(--dim);font-size:11px}
+.pill{display:inline-block;padding:2px 9px;border-radius:999px;font-size:11px;font-weight:600}
+.pill.running{background:#123524;color:#5ad48a}.pill.cancelled,.pill.paused{background:#3a1a1e;color:#e08a8f}.pill.queued{background:#3a3217;color:#e5c169}.pill.gone{background:#222;color:#777}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.lnk{font-size:12px;margin-right:10px;white-space:nowrap}
+.note{color:var(--dim);font-size:11px}
+.cap{color:var(--yellow)}
+.cap.ok{color:var(--green)}
+@media(max-width:760px){.hide-m{display:none}}
+</style>
+</head>
+<body><div class="wrap">
+<h1>Mission Control</h1>
+<div class="sub" id="updated"></div>
+<div class="tiles" id="tiles"></div>
+<div class="chips" id="chips"></div>
+<table><thead><tr>
+<th>Schedule</th><th class="hide-m">Cadence</th><th class="hide-m">Runs/day</th><th class="hide-m">Last fire</th><th>Next fire</th><th>Status</th><th>Links</th>
+</tr></thead><tbody id="rows"></tbody></table>
+<div class="note" style="margin-top:16px">Auto-refreshed by Fo at 9:05am and 5:05pm ET, or say "refresh mission control" in any chat. Demand and skips are estimates from the schedule list; the exact counters on the Wajo billing page aren't readable to Fo, so treat the numbers as close, not certified.</div>
+</div>
+<script>
+let DATA=null, FILTER="All";
+const statusColor=s=>s.toLowerCase().includes("cancel")?"cancelled":s.toLowerCase().includes("paus")?"paused":s.toLowerCase().includes("queued")?"queued":s.toLowerCase().includes("gone")?"gone":"running";
+function pill(s){return '<span class="pill '+statusColor(s)+'">'+s+'</span>'}
+function render(){
+ document.getElementById("updated").textContent = "Updated "+DATA.updated+" \u00b7 "+DATA.caps.plan;
+ const d=DATA.demand, over=d.total>d.cap;
+ const active=DATA.schedules.filter(s=>["running","queued"].includes(statusColor(s)));
+ document.getElementById("tiles").innerHTML=[
+  ['<div class="tile"><div class="n">'+active.length+'</div><div class="l">Active schedules</div></div>'],
+  ['<div class="tile"><div class="n '+ (over?"cap":"cap ok") +'" style="color:'+(over?"#e0b34c":"#3fb96b")+'">'+d.total+' / '+d.cap+'</div><div class="l">Runs demand vs daily cap</div><div class="d">'+(over?"~"+d.skipped_est+" low-priority fires skipped a day":"fits")+'</div></div>'],
+  ['<div class="tile"><div class="n">'+DATA.caps.email_threads_day+'</div><div class="l">Email threads / day cap</div></div>'],
+  ['<div class="tile"><div class="n">'+DATA.caps.phone_min_month+'</div><div class="l">Phone min / month</div></div>']
+ ].join("");
+ const projects=["All",...new Set(DATA.schedules.map(s=>s.project))];
+ document.getElementById("chips").innerHTML=projects.map(p=>'<span class="chip'+(p===FILTER?" on":"")+'" onclick="setFilter(\''+p.replace(/'/g,"\\'")+'\')">'+p+'</span>').join("");
+ const rows=DATA.schedules.filter(s=>FILTER==="All"||s.project===FILTER);
+ document.getElementById("rows").innerHTML=rows.map(s=>{
+  const links=(s.output?'<a class="lnk" target="_blank" href="'+s.output+'">sheet</a>':"")+(s.chat?'<a class="lnk" target="_blank" href="'+s.chat+'">chat</a>':"");
+  return '<tr><td><div class="sname">'+s.name+'</div><div class="proj">'+s.project+(s.note?" \u00b7 "+s.note:"")+'</div></td>'+
+  '<td class="hide-m">'+s.cadence+'</td><td class="hide-m">'+(s.runs||"")+'</td><td class="hide-m">'+(s.last||"\u2014")+'</td><td>'+(s.nxt||"\u2014")+'</td><td>'+pill(s.status)+'</td><td>'+links+'</td></tr>';
+ }).join("")||'<tr><td colspan="7" style="color:var(--dim)">No schedules in this view</td></tr>';
+}
+function setFilter(p){FILTER=p;render()}
+fetch("data.json?r="+Date.now()).then(r=>r.json()).then(d=>{DATA=d;render()});
+</script></body></html>
