@@ -1,8 +1,8 @@
 {
- "schedule": "FSU item cataloging",
- "last_fire": "Mon Nov 2 2:28pm ET",
- "last_outcome": "sent nothing",
- "next_fire": "4:15pm ET",
- "status": "running",
- "updated_at": "2026-11-02T15:42:00-05:00"
+  "schedule": "FSU item cataloging",
+  "last_fire": "2026-11-02T16:15:00-05:00",
+  "last_outcome": "eBay page 35: 146 new items (TCB-EBAY-006029-006174, sheet rows 15184-15329), 239 candidates, 3 skips (2 ad, 1 Fresno State), 93 cross-page dupes skipped; in-row fixes applied (2 brand, 15 category, 57 size, 1 licensed); dedupe now 6,037; Platform progress + Run log updated; p35 HTML saved to Drive (1ye1Byxp68tW57gtB-b6t0BUmA11LXxTv). Next page 36 of ~121.",
+  "next_fire": "2026-11-02T18:15:00-05:00",
+  "status": "running",
+  "updated_at": "2026-11-02T16:45:00-05:00"
 }
