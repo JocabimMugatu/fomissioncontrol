@@ -1,0 +1,8 @@
+{
+ "schedule": "Beehiiv subscriber enrichment",
+ "last_fire": "Mon Nov 2 2:31pm ET",
+ "last_outcome": "sent nothing",
+ "next_fire": "hourly",
+ "status": "running",
+ "updated_at": "2026-11-02T15:42:00-05:00"
+}
