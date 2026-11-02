@@ -1,8 +1,1 @@
-{
- "schedule": "Buncharoo intelligence pass",
- "last_fire": "Mon Nov 2 2:44pm ET",
- "last_outcome": "sent nothing",
- "next_fire": "4:30pm ET",
- "status": "running",
- "updated_at": "2026-11-02T15:42:00-05:00"
-}
+{"schedule":"Buncharoo intelligence pass","last_fire":"Nov 2, 6:30 PM ET","last_outcome":"Telly watch BF sourcing read: 4 rows to 'Telly watch'!A20:F23, R1 no kill signal, ledger noted","next_fire":"Nov 2, 8:30 PM ET","status":"running","updated_at":"2026-11-02T18:44:30-05:00"}
