@@ -1,8 +1,8 @@
 {
   "schedule": "Beehiiv subscriber enrichment",
-  "last_fire": "Mon Nov 2, 9:00 PM ET",
+  "last_fire": "Mon Nov 2, 10:00 PM ET",
   "last_outcome": "wall_hit",
-  "next_fire": "Mon Nov 2, 10:00 PM ET",
+  "next_fire": "Mon Nov 2, 11:00 PM ET",
   "status": "running",
-  "updated_at": "2026-11-03T02:16:00Z"
+  "updated_at": "2026-11-03T03:10:00Z"
 }
