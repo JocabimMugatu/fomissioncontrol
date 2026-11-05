@@ -1,8 +1,8 @@
 {
   "schedule": "Buncharoo intelligence pass",
-  "last_fire": "Thu Nov 5 12:30 AM ET",
-  "last_outcome": "Published Ilya Pozin partner-vs-build one-pager (Telly pilot option) + ledger/sheet writes",
-  "next_fire": "Thu Nov 5 2:30 AM ET",
+  "last_fire": "Thu Nov 5 6:30 AM ET",
+  "last_outcome": "NXDR pre-earnings live read ($2.44 close, call 8:30 AM) + BF price re-check",
+  "next_fire": "Thu Nov 5 8:30 AM ET",
   "status": "running",
-  "updated_at": "2026-11-05T00:50:00-05:00"
+  "updated_at": "2026-11-05T06:46:00-05:00"
 }
