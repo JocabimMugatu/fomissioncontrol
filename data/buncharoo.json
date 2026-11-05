@@ -1,1 +1,8 @@
-{"schedule":"Buncharoo intelligence pass","last_fire":"Nov 4 12:30 PM ET","last_outcome":"NXH pre-print slice 2: 6 rows to Comps watch (own-site pillar architecture, tZERO SPAC)","next_fire":"Nov 4 2:30 PM ET","status":"running","updated_at":"2026-11-04T12:44:00-05:00"}
+{
+  "schedule": "Buncharoo intelligence pass",
+  "last_fire": "Thu Nov 5 12:30 AM ET",
+  "last_outcome": "Published Ilya Pozin partner-vs-build one-pager (Telly pilot option) + ledger/sheet writes",
+  "next_fire": "Thu Nov 5 2:30 AM ET",
+  "status": "running",
+  "updated_at": "2026-11-05T00:50:00-05:00"
+}
