@@ -1,1 +1,1 @@
-{"schedule":"Beehiiv subscriber enrichment","last_fire":"Fri 5:00 AM ET Nov 6","last_outcome":"wall_hit: TPS captcha again, no rows processed","next_fire":"Fri 6:00 AM ET Nov 6","status":"running","updated_at":"2026-11-06T10:18:47Z"}
+{"schedule":"Beehiiv subscriber enrichment","last_fire":"Fri 6:00 AM ET","last_outcome":"wall_hit (TPS captcha, 136th run)","next_fire":"Fri 7:05 AM ET","status":"running","updated_at":"2026-11-06T11:10:00Z"}
