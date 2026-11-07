@@ -1,8 +1,1 @@
-{
- "schedule": "FSU item cataloging",
- "last_fire": "Fri Nov 6 4:15 PM ET",
- "last_outcome": "Poshmark fsu hoodie: 41 rows added (TCB-POS-000287-000327, Items!A21400:M21440)",
- "next_fire": "Fri Nov 6 6:15 PM ET",
- "status": "running",
- "updated_at": "2026-11-06T16:28:30-05:00"
-}
+{"schedule": "FSU item cataloging", "last_fire": "Fri Nov 6 8:15 PM ET", "last_outcome": "Poshmark fsu jersey: 45 rows added (TCB-POS-000328-000372, Items!A21441:M21485)", "next_fire": "Fri Nov 6 10:15 PM ET", "status": "running", "updated_at": "2026-11-06T20:20:00-05:00"}
