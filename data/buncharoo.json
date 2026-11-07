@@ -1,8 +1,8 @@
 {
   "schedule": "Buncharoo intelligence pass",
-  "last_fire": "Sat Nov 7 12:30 AM ET",
-  "last_outcome": "Roo build spec chunk 2 published",
-  "next_fire": "Sat Nov 7 2:30 AM ET",
+  "last_fire": "Sat Nov 7 6:30 AM ET",
+  "last_outcome": "Roo build spec chunk 3 published",
+  "next_fire": "Sat Nov 7 8:30 AM ET",
   "status": "running",
-  "updated_at": "2026-11-07T00:37:00-05:00"
+  "updated_at": "2026-11-07T06:37:00-05:00"
 }
