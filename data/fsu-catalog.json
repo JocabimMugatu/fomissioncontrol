@@ -1,8 +1,8 @@
 {
-  "schedule": "FSU item cataloging runs (hourly)",
-  "last_fire": "2026-11-08 08:15 ET",
-  "last_outcome": "+30 rows to Items (TCB-MER-000678-000707, rows 22250-22279): Mercari low band $2.51-$2.60 DONE (3 new, 1 dupe skip) and band $4.72-$5.44 tail $5.05-$5.41 DONE (27 new, SOLD skipped). Mercari total 707. Band head $4.72-$5.04 re-pass next fire.",
-  "next_fire": "2026-11-08 10:15 ET",
-  "status": "running",
-  "updated_at": "2026-11-08T08:39:30-05:00"
+  "schedule": "FSU item cataloging (every 2h)",
+  "last_fire": "Sun Nov 8 2026 4:15 PM ET",
+  "last_outcome": "Mercari band $4.72-$5.04 head pass 1: ~80/167 tiles scanned, 52 new items logged (TCB-MER-000708-000759, Items rows 22280-22331), ~20 already-logged dupes + 5 SOLD skipped; Mercari total 759; Run log row 218",
+  "next_fire": "Sun Nov 8 6:23 PM ET",
+  "status": "in progress",
+  "updated_at": "2026-11-08T16:40:00-05:00"
 }
