@@ -1,8 +1,8 @@
 {
-  "schedule": "FSU item cataloging (every 2h)",
-  "last_fire": "Sun Nov 8 2026 4:15 PM ET",
-  "last_outcome": "Mercari band $4.72-$5.04 head pass 1: ~80/167 tiles scanned, 52 new items logged (TCB-MER-000708-000759, Items rows 22280-22331), ~20 already-logged dupes + 5 SOLD skipped; Mercari total 759; Run log row 218",
-  "next_fire": "Sun Nov 8 6:23 PM ET",
-  "status": "in progress",
-  "updated_at": "2026-11-08T16:40:00-05:00"
+  "schedule": "FSU item cataloging runs (hourly)",
+  "last_fire": "Sun Nov 8 2026 6:15 PM ET",
+  "last_outcome": "Mercari band head $4.72-$5.04 pass 2 COMPLETE: all 167 tiles walked; 12 new logged (TCB-MER-000760-000771, Items rows 22332-22343), 46 already-logged dupes skipped, 7 SOLD skipped. Mercari total now 771. Band head fully walked.",
+  "next_fire": "Sun Nov 8 8:15 PM ET",
+  "status": "idle",
+  "updated_at": "2026-11-08T18:37:00-05:00"
 }
