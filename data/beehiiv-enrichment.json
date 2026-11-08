@@ -1,8 +1,1 @@
-{
-  "schedule": "Beehiiv subscriber enrichment",
-  "last_fire": "2026-11-08T06:00:00Z",
-  "last_outcome": "done: 5 pending rows processed 6432-6436 (skips 6430-6431). ThatsThem 403 captcha-walled every lookup; all lookups ran on TPS in-browser instead. 2 hits logged to Results v2 rows 1192-1196 (Carl Merrick 58 Panama City Beach FL; William Malloy 74 Panama City FL, both Medium), 3 no-match. Subscribers C6432:C6436 done. Progress next_index 6437, rotation advances to a=TPS for run #177.",
-  "next_fire": "2026-11-08T07:00:00Z",
-  "status": "running hourly",
-  "updated_at": "2026-11-08T06:16:53Z"
-}
+{"schedule": "Beehiiv subscriber enrichment", "last_fire": "Sun Nov 8 2026 02:00 AM ET (Sat Nov 7 23:00 PST fire)", "last_outcome": "Run #177 done: batch 6437-6442, 1 skip (6441). TPS browser: 2 hits - shankers@verizon.net = James Hankerson 22 Tallahassee FL (row 1197, Medium), dbseminoles@gmail.com = Darlene Brown 68 Mount Pleasant NC + spouse Dennis Brown 74 (row 1200, Medium); 3 no-match (rows 1198-1199, 1201). Progress -> 6443. Rotation -> b=FPS for run #178.", "next_fire": "Sun Nov 8 03:00 AM ET", "status": "ok", "updated_at": "2026-11-08T02:15:30-05:00"}
