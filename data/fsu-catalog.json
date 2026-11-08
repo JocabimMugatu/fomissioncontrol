@@ -1,8 +1,8 @@
 {
-  "schedule": "FSU item cataloging",
-  "last_fire": "Sun Nov 8 2026 02:15 ET",
-  "last_outcome": "+81 rows appended to Items (TCB-MER-000467-000547, rows 22039-22119): Mercari $2.01-$5.44 band, regions $2.07-$2.59 and $4.72-$5.44 swept, SOLD skipped, 0 dupes vs earlier passes. Mercari total 547. Run log row 214; Platform progress updated. Middle region $2.60-$4.71 left for next fire.",
-  "next_fire": "Sun Nov 8 2026 04:15 ET",
+  "schedule": "FSU item cataloging runs (hourly)",
+  "last_fire": "Sun Nov 8 2026 4:15 AM ET",
+  "last_outcome": "Mercari $2.60-$4.71 middle region pass 1: swept $2.61-$3.00 and $4.63-$4.71 regions, +48 rows (TCB-MER-000548-000595, rows 22120-22167); SOLD skipped; 3 dupes vs earlier passes dropped; $3.01-$4.62 sub-band left for next fire",
+  "next_fire": "Sun Nov 8 6:15 AM ET",
   "status": "running",
-  "updated_at": "2026-11-08T02:41:00-05:00"
+  "updated_at": "2026-11-08T04:45:00-05:00"
 }
