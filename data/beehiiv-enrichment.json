@@ -1,9 +1,8 @@
 {
-  "schedule": "Recurring Beehiiv subscriber enrichment run for Kevin Newman (The Chief Brief)",
-  "last_fire": "Sun Nov 8 2026 07:00 ET (run 181)",
-  "last_outcome": "Run 181 complete 07:45 ET. Wall retries cleared: 6457 jjonesy15@gmail.com HIT (Debora Tardo, 61, Massapequa Park NY, Medium, v2 row 1214); 6458 jnsvwest@netzero.net No match (TPS+FPS; v2 row 1215); 6459 debiesasser@yahoo.com HIT CONFIRMED (Debra Sasser, 64, Panama City FL, email listed in her known emails, v2 row 1216). New rows: 6461 gjsmith1947@outlook.com No match (TPS+FPS; v2 1217); 6462 carl@carloneal.com No match (TPS+FPS; v2 1218); 6465 msweeney1959@gmail.com HIT (Michael Sweeney, 69, Tampa FL, High, v2 1219); 6466 jackie72669@gmail.com HIT (Jacqueline Jimenez, 57, Wellington FL, High, v2 1220). Totals: 4 hits, 3 no-match, 7 v2 rows. TPS live all run (2 captchas cleared on retry), FPS clean 404s, ThatsThem verification wall failed twice all session.",
-  "next_fire": "Sun Nov 8 2026 08:00 ET (run 182, batch 6467-6472)",
+  "schedule": "Beehiiv subscriber enrichment",
+  "last_fire": "Sun Nov 8 8:00 AM ET (run 182)",
+  "last_outcome": "ThatsThem walled again; fell to TPS: mikegaro21 hit Michael Garo 71 Cape Canaveral FL (High), jumasten1 no match. 1 hit, 1 no-match, rows 6467-6472 (4 skips).",
+  "next_fire": "Sun Nov 8 9:00 AM ET (run 183, starts TPS)",
   "status": "running",
-  "progress": "next_index 6467 of 13902 (rows 6457-6466 processed)",
-  "updated_at": "2026-11-08T07:47:00-05:00"
+  "updated_at": "2026-11-08T08:21:00-05:00"
 }
