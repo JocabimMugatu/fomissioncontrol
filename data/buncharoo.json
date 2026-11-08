@@ -1,8 +1,8 @@
 {
   "schedule": "Buncharoo intelligence pass",
-  "last_fire": "Sun Nov 8 6:30 AM ET",
-  "last_outcome": "Roo build spec chunk 5 (deployment and ops manual) published",
-  "next_fire": "Sun Nov 8 8:30 AM ET",
+  "last_fire": "Sun Nov 8 12:30 PM ET",
+  "last_outcome": "Roo build spec chunk 6 (risk scripts R1-R8) published; build spec closed at six chunks",
+  "next_fire": "Sun Nov 8 2:30 PM ET",
   "status": "running",
-  "updated_at": "2026-11-08T06:43:00-05:00"
+  "updated_at": "2026-11-08T12:47:00-05:00"
 }
