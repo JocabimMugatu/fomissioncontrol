@@ -1,1 +1,8 @@
-{"schedule": "Beehiiv subscriber enrichment", "last_fire": "2026-11-08T00:00:00-05:00", "last_outcome": "Run #175 (rotation 5, source b=FPS): FPS rate-limited and ThatsThem captcha-walled, fell back to TPS (browser). Processed rows 6424-6429 (6 emails): 3 hits to Results v2 (rows 1186-1189: Karen Kidd Plant City FL, David+Jennie Rollins El Dorado Hills CA, Dennis Smith Amarillo TX, all Medium), 3 no-match. Progress next_index=6430, last_run=Sun Nov 8 12:41 AM ET.", "next_fire": "2026-11-08T01:00:00-05:00", "status": "running", "updated_at": "2026-11-08T00:42:00-05:00"}
+{
+  "schedule": "Beehiiv subscriber enrichment",
+  "last_fire": "2026-11-08T06:00:00Z",
+  "last_outcome": "done: 5 pending rows processed 6432-6436 (skips 6430-6431). ThatsThem 403 captcha-walled every lookup; all lookups ran on TPS in-browser instead. 2 hits logged to Results v2 rows 1192-1196 (Carl Merrick 58 Panama City Beach FL; William Malloy 74 Panama City FL, both Medium), 3 no-match. Subscribers C6432:C6436 done. Progress next_index 6437, rotation advances to a=TPS for run #177.",
+  "next_fire": "2026-11-08T07:00:00Z",
+  "status": "running hourly",
+  "updated_at": "2026-11-08T06:16:53Z"
+}
