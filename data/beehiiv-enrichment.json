@@ -1,8 +1,8 @@
 {
   "schedule": "Beehiiv subscriber enrichment",
-  "last_fire": "Sun Nov 8 8:00 AM ET (run 182)",
-  "last_outcome": "ThatsThem walled again; fell to TPS: mikegaro21 hit Michael Garo 71 Cape Canaveral FL (High), jumasten1 no match. 1 hit, 1 no-match, rows 6467-6472 (4 skips).",
-  "next_fire": "Sun Nov 8 9:00 AM ET (run 183, starts TPS)",
+  "last_fire": "Sun Nov 8 2026 09:00 AM ET (run #183, rotation 7 = a=TPS)",
+  "last_outcome": "COMPLETE: batch 6473-6478 (6475, 6477 skips): 1 hit Confirmed (6473 mtalbert@tampabay.rr.com -> Harvey Talbert 74 Statesville NC, v2 row 1223), 2 no-match (6474 bev.ros0819, 6476 wallacebruce717; v2 1224-1225), 1 ThatsThem ambiguous + TPS resolution (6478 mac.mcclung9@yahoo.com -> Crystal McClung ambiguous v2 1226 + Meredith McClung Jr 60 Malabar FL via ThatsThem->TPS, v2 1227, Medium). ThatsThem loaded clean this run (first time since run 179); TPS captcha auto-cleared; FPS clean 404s. 5 v2 rows added (1223-1227); Progress -> 6479. Cumulative hits since protocol: 23.",
+  "next_fire": "Sun Nov 8 2026 10:02 AM ET (run #184)",
   "status": "running",
-  "updated_at": "2026-11-08T08:21:00-05:00"
+  "updated_at": "2026-11-08T09:42:00-05:00"
 }
