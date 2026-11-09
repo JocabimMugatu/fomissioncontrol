@@ -1,10 +1,9 @@
 {
   "schedule": "FSU item cataloging runs (hourly)",
-  "job": "FSU item-level merchandise catalog for The Chief Brief",
-  "last_fire": "Mon Nov 9 2026 12:15 AM ET",
-  "last_outcome": "band $6.09-$6.40 pass 1 COMPLETE: 24 tiles walked (34 reported, 10 unrendered), 22 logged TCB-MER-000913-000934 (Items rows 22485-22506), 2 SOLD skipped, 0 dupes; Mercari total 934",
-  "next_fire": "Mon Nov 9 2026 2:15 AM ET",
-  "next_step": "band $6.41-$6.72 pass 1 (minPrice=641&maxPrice=672&sort=cheap)",
+  "last_fire": "Mon Nov 9 2026 2:15 AM ET",
+  "last_outcome": "Band $6.41-$6.72 pass 1 COMPLETE: 23 logged TCB-MER-000935-000957 (Items rows 22507-22529), 2 SOLD skipped, 0 dupes; 27 tiles walked, 14 unrendered. Mercari total 957.",
+  "next_fire": "Mon Nov 9 2026 4:15 AM ET",
+  "next_step": "band $6.73-$7.04 pass 1 (minPrice=673&maxPrice=704&sort=cheap)",
   "status": "idle",
-  "updated_at": "2026-11-09T00:29:00-05:00"
+  "updated_at": "2026-11-09T02:25:00-05:00"
 }
