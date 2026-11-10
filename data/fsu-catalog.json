@@ -1,9 +1,9 @@
 {
   "schedule": "FSU item cataloging runs (hourly)",
-  "last_fire": "Tue Nov 10 2026 2:15 AM ET (ran late ~2:26-2:31)",
-  "last_outcome": "Mercari band $8.33-$8.64 pass 1 COMPLETE: 68 results, 32 tiles rendered and walked, 29 logged TCB-MER-001255-001283 (Items A22827:M22855), 2 SOLD skipped (Nike Dri-fit polo, FSU Women's Tank Top 2pk), 1 skipped no FSU tie (Gators puzzle), 0 dupes, sheet 22,855 rows, dedupe 1249",
-  "next_fire": "Tue Nov 10 2026 4:15 AM ET",
-  "next_step": "Mercari band $8.65-$8.96 pass 1 (minPrice=865&maxPrice=896&sort=cheap)",
+  "last_fire": "Tue Nov 10 2026 4:15 AM ET (ran late ~4:20-4:25)",
+  "last_outcome": "Mercari band $8.65-$8.96 pass 1 COMPLETE: 31 results, 20 tiles rendered and walked, 13 logged TCB-MER-001284-001296 (Items A22856:M22868), 1 SOLD skipped (vintage FSU crop top jersey), 2 skipped no FSU tie (Gators shirt, Jackson Holliday card), 0 dupes, sheet 22,868 rows, dedupe 1262",
+  "next_fire": "Tue Nov 10 2026 6:15 AM ET",
+  "next_step": "Mercari band $8.97-$9.28 pass 1 (minPrice=897&maxPrice=928&sort=cheap)",
   "status": "idle",
-  "updated_at": "2026-11-10T02:31:00-05:00"
+  "updated_at": "2026-11-10T04:25:00-05:00"
 }
