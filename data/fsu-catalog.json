@@ -1,8 +1,8 @@
 {
-  "schedule": "FSU item cataloging runs (hourly, 12 fires/day)",
-  "last_fire": "Tue Nov 10 2026 8:15 AM ET (ran late ~8:29-8:41)",
-  "last_outcome": "Band $8.97-$9.28 pass 1 PARTIAL (bottom portion): 261 results in band; walked grid rows 35-54 (y8927-y14151), 78 tiles seen, 66 logged TCB-MER-001297-001362 to Items A22869:M22934, 0 dupes vs 1262 logged, 12 skipped (4 SOLD, 8 no-FSU-tie). mercari_logged files now 1328. GAP: rows 1-34 collected by the 6:15 AM fire were lost when its browser session expired before logging (fire refused a repeat scroll, session died); re-walk band top next fire. Rows 54 (2 tiles) + rows 55+ still unrendered below y13912. Sheet 22,934 rows. Platform progress row 10 + Run log row 231 updated.",
-  "next_fire": "Tue Nov 10 10:15 AM ET: re-walk band top rows 1-34 (y452-y8927), render+walk bottom rows 54b/55+, finish band $8.97-$9.28, then start band $9.29-$9.59",
-  "status": "in_progress",
-  "updated_at": "2026-11-10T08:41:53-05:00"
+  "schedule": "FSU item cataloging runs (hourly)",
+  "last_fire": "Tue Nov 10 2026 10:15 AM ET (ran ~10:26-11:05 AM ET)",
+  "last_outcome": "PARTIAL. Mercari band $8.97-$9.28 continued: walked rows 1-36 of the 261-result grid, logged 129 new items TCB-MER-001363-001491 (appended in 6 batches ending Items!A23063), 2 sold tiles skipped per batch, dedupe clean each batch vs mercari_logged.txt (now 1,457 URLs). Sheet now 23,063 rows; Platform progress row 10 + Run log row 232 updated. Open: render+walk bottom rows 37+, then band $9.29-$9.59.",
+  "next_fire": "Tue Nov 10 12:15 PM ET",
+  "status": "ok",
+  "updated_at": "2026-11-10T12:31:00-05:00"
 }
