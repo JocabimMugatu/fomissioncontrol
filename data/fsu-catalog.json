@@ -1,8 +1,8 @@
 {
   "schedule": "FSU item cataloging runs (hourly)",
-  "last_fire": "2026-11-10T12:15:00-05:00",
-  "last_outcome": "12:15 fire, walk finished 12:45-12:55 PM: Mercari band $8.97-$9.28 closed out, price filter switched to $9.29-$9.59 (74 results). Full first band walk: 59 items logged 001520-001578 (Items A23089:M23151, incl. 4-row gap repair at A23108), 3 SOLD tiles skipped, 1 off-topic card lot skipped. Grid renders 60 tiles then a promoted section; 74-results count vs 60 tiles seen, remainder did not render. mercari_logged.txt 1544 lines. MC pushed twice (12:46 + 12:57).",
-  "next_fire": "2026-11-10T14:15:00-05:00",
+  "last_fire": "2026-11-10T14:15:00-05:00",
+  "last_outcome": "2:15 PM fire, walk finished ~2:45 PM: Mercari band $9.29-$9.59 CLOSED with 0 new (60 tiles re-walked, all on file 001520-001578). Band $9.60-$9.90 opened: 33 results, 15 tiles rendered, 14 items logged TCB-MER-001579-001592 (Items A23148:M23161), 1 SOLD + 1 off-topic skipped, 0 dupes. mercari_logged.txt 1,558 URLs. Run log row 234, Platform progress row 10 updated.",
+  "next_fire": "2026-11-10T16:15:00-05:00",
   "status": "running",
-  "updated_at": "2026-11-10T12:57:00-05:00"
+  "updated_at": "2026-11-10T14:46:00-05:00"
 }
