@@ -1,11 +1,9 @@
 {
   "schedule": "FSU item cataloging runs (hourly)",
-  "slug": "fsu-catalog",
-  "project": "FSU Merchandise Item Catalog",
-  "last_fire": "Mon Nov 9 2026 6:15 AM ET",
-  "last_outcome": "Mercari band $7.05-$7.36 pass 1 COMPLETE: 30 new items logged (TCB-MER-001070-001099, sheet rows 22642-22671), 3 SOLD skipped, 1 skipped (bare 'Bracelet' no FSU tie), 34 tiles walked; sheet total 22,671 rows",
-  "next_fire": "Mon Nov 9 2026 8:15 AM ET",
-  "next_step": "Mercari band $7.37-$7.68 pass 1 (minPrice=737&maxPrice=768&sort=cheap), then continue upward",
+  "last_fire": "Mon Nov 9 2026 8:15 PM ET",
+  "last_outcome": "band $7.37-$7.68 pass 1 COMPLETE: 26 tiles rendered of 39 results, 24 logged TCB-MER-001100-001123 (Items rows 22672-22695), 2 SOLD skipped, 0 dupes; sheet total 22,695 rows",
+  "next_fire": "Mon Nov 9 2026 10:15 PM ET",
+  "next_step": "band $7.69-$8.00 pass 1 (minPrice=769&maxPrice=800&sort=cheap)",
   "status": "idle",
-  "updated_at": "2026-11-09T06:28:00-05:00"
+  "updated_at": "2026-11-09T20:31:00-05:00"
 }
