@@ -1,9 +1,11 @@
 {
-  "schedule": "FSU item cataloging runs (hourly, every 2h)",
-  "last_fire": "Mon Nov 9 2026 10:15 PM ET",
-  "last_outcome": "Mercari band $7.69-$8.00 pass 1 COMPLETE: 120 tiles walked, 105 logged (TCB-MER-001124-001228, Items A22696:M22800), 7 SOLD skipped, 8 skipped bare/no FSU tie, 0 dupes. Sheet total 22,800 rows; dedupe 1194 unique ids.",
-  "next_fire": "Tue Nov 10 2026 12:15 AM ET",
-  "next_step": "Mercari band $8.01-$8.32 pass 1 (minPrice=801&maxPrice=832&sort=cheap)",
+  "schedule": "FSU item cataloging runs (hourly cadence every 2h at :15; overnight fires skip when nothing fires)",
+  "job": "FSU merchandise item-level cataloging for The Chief Brief (Kevin Newman)",
+  "source": "Mercari FSU fan shops (crawl queue position 9)",
+  "last_fire": "Tue Nov 10 2026 12:15 AM ET (ran late ~12:29-12:33)",
+  "last_outcome": "band $8.01-$8.32 pass 1 COMPLETE: 35 results, 31 tiles walked, 26 logged TCB-MER-001229-001254 (Items A22801:M22826), 2 SOLD skipped, 3 skipped bare/no FSU tie, 0 dupes. Sheet 22,826 rows; dedupe 1220",
+  "next_fire": "Tue Nov 10 2026 2:15 AM ET",
+  "next_step": "band $8.33-$8.64 pass 1 (minPrice=833&maxPrice=864&sort=cheap)",
   "status": "idle",
-  "updated_at": "2026-11-09T22:35:00-05:00"
+  "updated_at": "2026-11-10T00:33:00-05:00"
 }
