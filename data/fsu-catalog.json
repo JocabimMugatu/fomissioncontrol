@@ -1,9 +1,9 @@
 {
   "schedule": "FSU item cataloging runs (hourly)",
   "slug": "fsu-catalog",
-  "last_fire": "2026-11-11T00:15:00-05:00",
-  "next_fire": "2026-11-11T02:15:00-05:00",
+  "last_fire": "2026-11-11T02:15:00-05:00",
+  "next_fire": "2026-11-11T04:15:00-05:00",
   "status": "running",
-  "last_outcome": "Band $11.11-$11.40 walked: 14 logged (TCB-MER-001694-001707), 0 dupes; next band $11.41-$11.70",
-  "updated_at": "2026-11-11T00:21:37.779203-05:00"
+  "last_outcome": "Band $11.41-$11.70 walked: 15 logged (TCB-MER-001708-001722), 0 dupes; next band $11.71-$12.00",
+  "updated_at": "2026-11-11T02:28:33.580025-05:00"
 }
