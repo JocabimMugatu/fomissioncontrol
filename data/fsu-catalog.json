@@ -1,9 +1,9 @@
 {
   "schedule": "FSU item cataloging runs (every 2h, Mercari band walk)",
-  "last_fire": "Wed Nov 11 2026 8:15 PM ET",
-  "last_outcome": "Band $14.11-$14.40 walked: 52 results, 16 tiles rendered, 14 live logged TCB-MER-001841-001854 + 1 SOLD row (001855), 1 off-topic (Fresno State jacket). Items 23,424 rows; mercari_logged.txt 1,821 lines.",
-  "next_fire": "Wed Nov 11 2026 10:15 PM ET",
+  "last_fire": "Wed Nov 11 2026 10:15 PM ET",
+  "last_outcome": "Band $14.41-$14.70 walked: 44 results, 16 tiles rendered, 15 live logged TCB-MER-001856-001870 + 1 SOLD row (001871), 0 dupes. Items 23,441 rows; mercari_logged.txt 1,837 lines.",
+  "next_fire": "Thu Nov 12 2026 12:15 AM ET",
   "status": "In progress",
-  "next_step": "Mercari band $14.41-$14.70",
-  "updated_at": "2026-11-11T20:26:32 ET"
+  "next_step": "Mercari band $14.71-$15.00",
+  "updated_at": "2026-11-11T22:27:27 ET"
 }
