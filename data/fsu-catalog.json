@@ -1,9 +1,1 @@
-{
-  "schedule": "FSU item cataloging runs (every 2h, Mercari band walk)",
-  "last_fire": "Thu Nov 12 2026 2:15 AM ET",
-  "last_outcome": "Band $15.01-$15.30 walked: 33 results, 16 tiles, 15 live logged TCB-MER-001888-001902 + 1 SOLD row (001903 Nike jacket), 0 dupes. Items 23,473 rows; mercari_logged.txt 1,869 lines.",
-  "next_fire": "Thu Nov 12 2026 4:15 AM ET",
-  "status": "In progress",
-  "next_step": "Mercari band $15.31-$15.60",
-  "updated_at": "2026-11-12T02:32:16 ET"
-}
+{"updated_at":"Thu Nov 12 2026 04:32 AM ET","platform":"Mercari","band":"$15.31-$15.60 (minPrice=1531 maxPrice=1560)","results":54,"tiles_primary_grid":16,"live_logged":["TCB-MER-001904","TCB-MER-001905","TCB-MER-001906","TCB-MER-001907","TCB-MER-001908","TCB-MER-001909","TCB-MER-001910","TCB-MER-001911","TCB-MER-001912","TCB-MER-001913","TCB-MER-001914","TCB-MER-001915","TCB-MER-001916","TCB-MER-001917","TCB-MER-001918"],"sold":["TCB-MER-001919"],"dupes":0,"items_rows_after":23489,"mercari_logged_lines":1885,"run_log_row":253,"next_band":"$15.61-$15.90 (minPrice=1561 maxPrice=1590)","notes":"Suncatcher m22159105512 PDP-verified brand Collegiate garnet/gold glass; Jermaine Johnson XRC auto /15 notable"}
