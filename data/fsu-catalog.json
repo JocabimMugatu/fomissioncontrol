@@ -1,5 +1,5 @@
 {
-  "updated_at": "Fri Nov 13 2026 6:33 AM ET",
+  "updated_at": "Fri Nov 13 2026 8:40 AM ET",
   "platform": "Mercari",
   "band": "$18.91-$19.20",
   "results": 170,
@@ -8,12 +8,12 @@
   "sold": 1,
   "off_topic": 1,
   "dupes": 3,
-  "last_ids": "TCB-MER-002098-002111",
-  "items_rows": 23681,
+  "last_ids": "TCB-MER-002112-002122",
+  "items_rows": 23692,
   "logged_file_lines": 2063,
   "next": "band $19.21-$19.50 (minPrice=1921 maxPrice=1950)",
-  "last_band": "$19.21-$19.50",
-  "logged_count": "2,081 (mercari_logged.txt 2,077 lines)",
-  "next_band": "$19.51-$19.80 (minPrice=1951 maxPrice=1980)",
-  "notes": "14 logged (13 live + 1 SOLD quilted blanket); 1 dupe skipped (Homefield Renegade tee, already in ledger); 1 off-topic skipped (Trey Benson Leaf card); PINK hoodie confirmed FSU via PDP"
+  "last_band": "$19.51-$19.80",
+  "logged_count": "2,092 (mercari_logged.txt 2,088 lines)",
+  "next_band": "$19.81-$20.00 (minPrice=1981 maxPrice=2000)",
+  "notes": "11 logged (10 live + 1 SOLD Boca Classics polo); 2 dupes skipped (Carl Banks jacket, women's 3/4 sleeve shirt, already in ledger from Nov 10 pass); 3 off-topic skipped (Gators BEAT FSU tee, Spaulding kids sweater per PDP, SF Giants cap)"
 }
