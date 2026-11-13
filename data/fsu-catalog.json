@@ -1,1 +1,19 @@
-{"updated_at":"Fri Nov 13 2026 4:36 AM ET","platform":"Mercari","band":"$18.91-$19.20","results":170,"tiles":16,"logged_live":11,"sold":1,"off_topic":1,"dupes":3,"last_ids":"TCB-MER-002086-002097","items_rows":23667,"logged_file_lines":2063,"next":"band $19.21-$19.50 (minPrice=1921 maxPrice=1950)"}
+{
+  "updated_at": "Fri Nov 13 2026 6:33 AM ET",
+  "platform": "Mercari",
+  "band": "$18.91-$19.20",
+  "results": 170,
+  "tiles": 16,
+  "logged_live": 11,
+  "sold": 1,
+  "off_topic": 1,
+  "dupes": 3,
+  "last_ids": "TCB-MER-002098-002111",
+  "items_rows": 23681,
+  "logged_file_lines": 2063,
+  "next": "band $19.21-$19.50 (minPrice=1921 maxPrice=1950)",
+  "last_band": "$19.21-$19.50",
+  "logged_count": "2,081 (mercari_logged.txt 2,077 lines)",
+  "next_band": "$19.51-$19.80 (minPrice=1951 maxPrice=1980)",
+  "notes": "14 logged (13 live + 1 SOLD quilted blanket); 1 dupe skipped (Homefield Renegade tee, already in ledger); 1 off-topic skipped (Trey Benson Leaf card); PINK hoodie confirmed FSU via PDP"
+}
