@@ -9,7 +9,7 @@
   "recurring_max": 40,
   "fastest_repeat": "every 2 min"
  },
- "updated": "Fri Nov 13, 10:20 PM ET",
+ "updated": "Fri Nov 13, 5:20 PM ET",
  "demand": {
   "total": 106,
   "cap": 100,
@@ -250,7 +250,7 @@
    "runs": "2",
    "fires": "23",
    "last": "Fri 5:12 PM",
-   "outcome": "Fri 5:05 fire (fires 23) done ~5:45pm: fresh 34-entry roster read; investor one-shot completed ~1:05pm and off the roster (marked GONE); CB outbound runs/day corrected 7-8 per the cron; budget demand 106, flagged over the 105 line; site pushed",
+   "outcome": "Fri 5:05 fire (fires 23) done ~5:25pm: fresh 34-entry roster read; investor one-shot completed ~1:05pm and off the roster (marked GONE); CB outbound runs/day corrected 7-8 per the cron; budget demand 106, flagged over the 105 line; site pushed",
    "nxt": "Sat 9:10 AM",
    "status": "running",
    "note": "",
