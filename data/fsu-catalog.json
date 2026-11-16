@@ -6,32 +6,22 @@
  "tiles": 16,
  "live_logged": 14,
  "sold": [
-  "m26571332958 Victoria's Secret PINK FSU jersey"
+  "m77877731042 Starbucks FSU Been There mug"
  ],
  "off_topic": [
-  "m59888479309 JanSport Frostburg State sweatshirt"
+  "8 pro cards skipped: Jameis Winston x5 (m55133859922, m34889037982, m18213250170, m68949942474, m53897023033), Taylor Ward x2 (m25791292495, m68393135198), Cam Akers (m36406446616)"
  ],
  "dupes": 0,
  "new_ids": [
-  "TCB-MER-002536",
-  "TCB-MER-002537",
-  "TCB-MER-002538",
-  "TCB-MER-002539",
-  "TCB-MER-002540",
-  "TCB-MER-002541",
-  "TCB-MER-002542",
-  "TCB-MER-002543",
-  "TCB-MER-002544",
-  "TCB-MER-002545",
-  "TCB-MER-002546",
-  "TCB-MER-002547",
-  "TCB-MER-002548",
-  "TCB-MER-002549"
+  "TCB-MER-002550",
+  "TCB-MER-002551",
+  "TCB-MER-002552",
+  "TCB-MER-002553"
  ],
  "items_sheet_rows": "A24081:M24094",
- "ledger_lines": 2515,
+ "ledger_lines": 2519,
  "run_log_row": 297,
- "next_band": "$35.01-$35.50",
- "last_run": "2026-11-16 02:15 ET",
- "last_band": "$34.51-$35.00"
+ "next_band": "$35.51-$36.00",
+ "last_run": "2026-11-16 04:15 ET",
+ "last_band": "$35.01-$35.50"
 }
